@@ -1,2 +1,2 @@
-# ev-betting-calculator
-EV Betting Calculator with NDK
+# EV Betting Calculator
+EV Betting Calculator with Android NDK
