@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <!-- Bankroll -->
+    <TextView
+        android:id="@+id/tvBankrollLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bankroll:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etBankroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="18sp" />
+
+    <!-- P(win) -->
+    <TextView
+        android:id="@+id/tvPWinLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P(win):"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPWin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="18sp" />
+
+    <!-- Odds -->
+    <TextView
+        android:id="@+id/tvOddsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odds:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etOdds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textSize="18sp" />
+
+    <!-- P(lose) -->
+    <TextView
+        android:id="@+id/tvPLoseLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P(lose):"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPLose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <!-- ROI % -->
+    <TextView
+        android:id="@+id/tvROILabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROI %:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvROI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <!-- EV -->
+    <TextView
+        android:id="@+id/tvEVLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EV:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <!-- % of Bankroll -->
+    <TextView
+        android:id="@+id/tvBankrollPercentageLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="% of Bankroll:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBankrollPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <!-- Bet -->
+    <TextView
+        android:id="@+id/tvBetLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bet:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Calculate"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

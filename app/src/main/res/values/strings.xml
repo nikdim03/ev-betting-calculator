@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Betting</string>
+    <string name="label_p_lose">%1$.2f</string>
+    <string name="label_roi">%1$.2f%%</string>
+    <string name="label_ev">%1$.2f</string>
+    <string name="label_bankroll_percentage">%1$.2f%%</string>
+    <string name="label_bet">%1$.2f</string>
+</resources>
